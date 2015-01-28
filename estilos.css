@@ -1,0 +1,126 @@
+a
+{
+	color: #22BCE0;
+}
+body
+{
+	background: #EEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+header
+{
+	background: #343B54;
+	color: white;
+	overflow: hidden;
+	margin: 1em;
+}
+/*header figure
+{
+	border: 5px solid white;
+	position: relative;
+	margin-left: 10em;
+	
+}
+*/
+header h1
+{
+	font-size: 45px;
+	font-weight: normal;
+	margin-left: 6.5em;
+	padding: 1.5em 0 0 0;
+	
+}
+
+header #logo img
+ {
+	width: 200px;
+	border-radius: 50%;
+	float: left;
+	position: relative;
+	margin-bottom: 2em;
+	float: left;
+	/*border-right: 1px solid white;*/
+	box-shadow: rgba(0,0,0,0.5) 10px 10px 20px;
+}
+footer
+{
+	background: #22BCE0;
+	text-align: center;
+	color: rgba(255,255,255,0.7);
+	padding: 1em;
+}
+footer p:first-child
+{
+
+	margin-bottom: 0;
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
+footer p:last-child:before
+{
+	content:"- ";
+	
+}
+footer p:last-child:after
+{
+	content:" -";
+}
+
+nav
+{
+	background: #80BCA3;
+	padding: 0 0.5em;
+	
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+#derecho
+{
+	margin: 1em;
+	float: left;
+	overflow: hidden;
+}
+#derecho .item
+{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	margin-right: 3em;
+	padding: 0 7em 0 0;
+	 
+}
+#derecho .item .imagen_item
+{
+float: left;
+margin: 0 1em 0 0;
+}
+#derecho .item .imagen_item img
+{
+	width: 200px;
+	border-radius: 25%;
+
+}
+#derecho .item .texto_item
+{
+	border: 1px solid red;
+	
+
+}
